@@ -1,0 +1,100 @@
+Javax Swing, tiene un paquete llamado swing y este 
+tiene los componentes de la GUI de Java
+
+
+Son las principales: JDialog, JCompomponentn, JFrame
+JDialog es como una ventanta, tite todos
+JComponente, puede ser un contenedor o tambien puede estar desntro de un JDialong o JFrame
+
+
+
+Los componentes pueden formar parte de una ventana
+JPanel-Boton-Etiqueta... y cada uno va a ir derivando en mas calses
+TogalButton botonenes que mascan un estado... 
+
+JCheckbutton y y radiobutton
+POR EJEMPLO el chek es para cuando dice seleccione la que quieras:
+x dormir
+x estudiar
+x comer
+
+sI ESCOjo una opcion, no puedo escoger otra:  
+Radiobuttons
+Si 
+No 
+.........................
+
+Filosofia DRY: dont repeat yourself (no repitas c{odigo)
+
+La herencia viene tanto en atributos como en metodos...
+
+
+------------------------------------------------------
+Text component
+Textarea textos grandes
+TextosFilsd cortos (podrian ser contraseñas, vemos lo que escribimos)
+ 
+
+
+
+
+
+
+Go!
+Para crear un nuevo proyecto
+new proyect
+igual que un proyecto
+
+En el paquete, le creamos un new JaFrame form
+
+Sale un source o undesign
+
+La herencia del Jframe viene de nosotros, de nuestas ventanas 
+Hola mundo esta heredando de JFrame
+
+O podemos heredar de JDialog
+
+extends"esta extendiendo de Jframe" tiene todo lo que tiene JFrame + lo que yo tengo en mi clase
+
+layout: la forma en la que estan distributidos los elementeos en la etnana
+EEn el main, el java.awt.Event, crea un porceso para poder crear esa ventanta
+
+luego creamos una instancia de mi clase hola mundo y decimos que sea visible = true; 
+
+
+Paletta: aqui tenemos todos los componentes
+
+Windows id tool- paleta
+
+cuando arrastramos ese componente Laabel doble click para editarlo
+aparece en el codigo, lo que hace es declaro un cmpoente JLable y despues le da un texto: Hola mundo
+
+ell .addComponent esta añadiendo...
+
+Ese Label 1, podemos cambiarlo, click izquierdo change lbl, y le pondemos al que corresponda
+en este caso es Hola
+
+Es mas facil hacer referencia al Lbl Hola
+
+TxtTexto le pondemos al nombre a la variable, porque le pusimos textfield
+
+A button le damos doble cick y nos lleva al source
+vemos un metodo privado que se llama ButtonActionPerformed, ahi dice que accion debe hacer cuando presionemos este boton
+
+
+
+el ButtonOk.AddActionLintener dice añada un escuchador de accion, este metodo tienen el componente button oara escuchar las acicones del usuario
+el addactionListener recive un objeto de tipo acciton listener  
+todo lo que sigure depues, el public void.. es una clase asbtracta
+
+EL aCCtonlIsatener es una interfaz que extienede al EventListener
+
+el metodo AvtioPermored 
+
+
+
+
+
+
+
+
