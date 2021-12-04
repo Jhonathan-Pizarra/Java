@@ -1,0 +1,20 @@
+FLUJO DE EJECUCIÓN,
+La ejecución de un programa empieza en el metodo main,
+dentro de ese método la ejecución se da linea por linea
+
+Laa estruciutas de control de flujo , modifican la dirección , dando saltos o repitiendo códigos
+
+Si queremso dar saltos, usamos condicionlas
+Si queremos reperir códigos, usamao bucles
+
+
+Condicional if
+
+SIntaxis:
+if(condicion){
+ Si la condicion es verdadera, todo el codígo de aqui se ejecuta
+}else{
+	Código se ejecuta si la condicion es falsa ,
+}
+
+

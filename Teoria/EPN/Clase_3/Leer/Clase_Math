@@ -1,0 +1,66 @@
+CLASE MATH
+
+Para realizar calculos mas avanzados necesitamos usar la clase Math.
+Debemos saber que todo programa en java debe estar formado por al menos una clase.
+
+Las clases en Java puden ser de 2 tipos: Propias y Definidas
+Propia, es la que nosotros creamos
+Definitdas, son las contruidas dentro del lengujae de progrqmacion (String, Math, Array, etc). Ayuda al programador a no inventar una clase inescesariamente  
+
+Todas las clases definidas estan dentro de la biblioteca de Claes (API). En java, Todas las clases tienen diferentes métodos
+
+-------------------------------------------------------------------------------------------------------------------------------
+Para acceder al API podemos hacerlo tanto online como offline
+Online: https://docs.oracle.com/javase/8/docs/api/
+Api, son bibliotecas de java
+
+Packetes, tenemos 2 tipos, java y javax
+
+Seleccionamos all CLasess
+Escogemos la clase Math
+En Method Summary estan todas las acciones que se pueden hacer con esta clase:
+
+Math.sqrt(n) : devuelve la raiz cuadrada de un numero
+Math.pow(Base,exponente): potencia de un numero
+Math.sin(angulo): CLacula el seno de un angulo
+Math.PI: CLacula.. bueno, mejor dicho, establece el valor de PI
+
+La clase Math es un metodo estático por lo que debes llamar a la clase, luego un punto y luego el metodo. 
+(Como hiciste para calcular coseno de PI)
+--------------------------------------------------------------------------------------------------------------------------------
+Refundicion: ES CAMBIAR un tipo de dato a otro
+SIntaxis: 	TIpo de dato + Noimbre de la variable = TIpo de dato a transformar) Exprsion
+
+Por ejemplo, tenemos 13.9 si hago refuncidicion tendria 13, porque converti de decimal a entero (Perdi la aprte decimal)
+-------------------------------------------------------------------------------------------------------------------------------
+COnsulta: ENtrar al APi, buscar la clase Math, y ver los metodos que mas se utilizar :3 
+Y hacer un programa para poder hacer calculos (Transformar a grados) 
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

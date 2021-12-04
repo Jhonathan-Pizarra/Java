@@ -1,0 +1,41 @@
+CLase String: Nos sirve para manipulas cadenas de caracteres
+Su sintaxis es:
+String + nombre_de_la_cadena ="cadena de caracteres";
+(Nombre de la cadena ) no es una variable, es un objeto (Instancia o ejemplar de la clase String)
+
+Metodos más utilizados:
+lenght(): Devuelve la longitud de una cadena de caracteres
+char At(n): devuelve el caracter dentro de una cadena de acuerd a la posicion n (La posdciocion emperaza a contar desde cero)
+La subtring (x,y): extrae una subcadena dentro de la cadena
+equals(cadena): devuekve un true (boolean) si las cadenas son iguales o 8FALSE) SI NO LO SON
+equalsIgnoreCase(): OLvidate de tu propiedad de que seas Kaysesensitive y compara sin imporatr si sean mayúsculas o minúsculas
+
+-------------------------------------------------------------------------------------------------------------------------------
+API es la biblioteca de clases definidas y métodos (Estáticos y no estáticos)
+Si tenemos metodos estáticos, tenemos que llamar a la clase, un punto y el método
+Cuando es estatico va el nombre de la string y el metodo
+Cuando no es estatico va la vartiable igualado a un metodo (EL cual tendra un valor) 
+
+API es la biblioteca de clases definidas y métodos (Estáticos y no estáticos)
+Etán organizadas por paquetes
+Dentro de los paquetes hay sub-paquetes
+
+El paquete java.util:
+java.io (Entrada y salida de datos)
+java.awt( Interfaces)
+ava.lang(Estan las clases math, string, etc)
+
+Los paquetes fueron inventados para :
+-Organizar las clases 
+-Para evitar conflictos de nombres de clases, no pueden existir 2 clases con el mismo nombre en el mismo paqete
+-Puede haber 2 clases con el mismo nombre en diferentes paquetes.
+-Para llegar a controlar la visibilidad de las clases
+
+Existe un paquete por defecto java.lang , almacena las clases System, string, math, thread . 
+Si debemos usar una clase de un paquete que sea java.lang lo que debemos hacer imporatla
+java.lang.object eso quiere decir que podemos usar todo en nuestro paquete
+
+-------------------------------------------------------------------------------------------------------------------------
+
+
+

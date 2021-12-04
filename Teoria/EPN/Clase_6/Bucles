@@ -1,0 +1,29 @@
+Condiconal Switch
+
+A traves de la palabra reservada Switch , lo que hace es selecionar de acuerdo a los casos del valor evaluado
+switch (valore a evaluar){
+Case valor_1:
+	Codigo a ejecutar
+	break; //Romper
+}
+
+Default : EN el caso de que no cumpla ninguno de esos casos.
+
+.....................................................................................................
+Bucles
+Indeterminados: NO sabemos cuantas veces se van a ejecutar, tenemos dos casos
+WHile y Do While
+Los virus y malwares, pro ejemplo,  tienen bules indetermiandos (Están siempre ejecutadose)
+
+
+Determinados: 
+For 
+For Each : Se utiliza cuando estemeos trabajado con arrays y/o matrices
+
+ BUcle WHile
+	while (condicion){
+		Linea 1
+		LInea 2
+		LInea 3
+	}
+Mientras la condicion se cumpla, se ejecutan todas las lineas que haya dentro de ese bucle.

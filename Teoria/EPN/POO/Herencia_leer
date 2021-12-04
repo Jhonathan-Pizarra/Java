@@ -1,0 +1,47 @@
+ES una de las caractersticed mas importatnes de la POO
+
+EN algun momento el hijo v a heredar del padre, y el padre de su padre
+
+hERANCIA ES QUE CLASES O SUPBCLASES HEREN METODOS DE CLASES SUPERIORES
+
+EN java solo hay como heredar de una sola clase, en java no existe la herencia multiple, (hereda solo del pare, mas no de la madre)
+
+Las partes que estna mas abajo siempre van a tener mas cosas
+Igual en java, las que esten abajo van a tener mas calses, metodos, etc
+
+	ESta herencia sirve para no rutilizar codigos, no comonexzar todo desde cero
+
+Se heredan atriutos y metodos entre clases
+
+Para hacer uso de la hetencia tenemos que usar la palabra reservada: extends
+
+EL hijo va a heredar tanto los metodos y atributos del avion
+y ademas trendra sus propios atributos, y sus metodos
+
+SUper: es una palñabra reservada que nos sirve para llamar un contrucotr de la clase pafdre o superclae,
+esta palabra super(); debe ir dentro del contructor hijo
+
+clase hijo o subclase"
+
+LOs atributops de jet no van a poder ser utilizados por Avion ni otra clase 
+una sublclase de jet si podra heredar los atributos de jet
+
+
+¿COmo diselño la herencia de mis clases?
+ESite la regla para determinar la herencia de las clases
+Se debe alplicar el termino "es un"
+Avion y Jet
+
+Una moto es una bici?
+una bici es una moto?
+
+tendiramos que siseñar algo como..
+Vehiculo 2 ruedas
+
+1) Bici
+2) Moto
+
+ES decir , algo general de lo que se pueda hacer algo particular
+
+
+

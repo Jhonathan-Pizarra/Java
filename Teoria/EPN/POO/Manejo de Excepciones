@@ -1,0 +1,80 @@
+Manejo de Excepciones
+
+Manjo de errores en java, a la hora de programar se pueden cometer errores, existen alfunos tipos de errores al momento de programas: de compilacion y de ejecucion
+
+CUando tenemos eerores en iempo de ejecucuin, --> Throwable ..errore 
+										
+					.		  ....excepcion .......i/o
+								             ....Runtime
+
+En java cuando se genera un error, se crear un objeto del tipo error a partir de la clase Throwable
+todo error se hereda de Thowalnle, cuyas sublcases son Error y Exception
+
+LOs errores en  java realmente son objetos y como tales, podran tener metodos, atributos, etc
+
+La sublcase error  va asociacda o se relaciona con los errores de hardwaqerw (Eropr en disco o Poca Memoria)
+
+La subclase Exception presenta dos subclases (IOException y RuntimeException)
+Todos los errores que se fenerean a partir de hardware
+---------------------------------------------------------------------------------------------------------------------------------------
+Los errores de IO son llamados errores o excepticones compraobadas, y los de Runtime son llamadas expeciones no comporbados
+
+COmprobados, porque no son culpa del programado r de JAVA
+nO COMPORBADPS, son culpa del programador
+
+.......................................................................
+
+CAPTURA Y GESTION DE EXCEPCIONES
+Para atrapar excepcions utilizamos la estructura Try y 	Catch
+
+try{
+	((COdigo ue puede generear errores o excepciones
+}
+
+catch (<Nombre de la Excepcion> e1){ (e1 es ka excepcion 1) 
+	//Codigo que gestin ala Excepcion1
+}
+catch (<Nombre de la Excepcion> e2){
+	//Codigo que gestin ala Excepcion2
+}
+
+
+-----------------------------------------------------------------------------------------
+exixsten tantos catch como excepciones hayan, Para gestionar excepciones se coloca el codifo que pueda causarlas dentro del try
+y tantas clausulas catch como sean necesarias. (De acuerdo al numero de xcepciones que se pedan generar)
+Entre mas grande el codigo que este en el try, mas lento se puede volver la gestion
+
+--------------------------------------------------------------------------------------------
+Propagacion de Excepciones
+
+supongamos que tenemos 3 metodos, metodo main, metodo a y metodo b
+
+y que esten enlazxdas en ese orden
+Si en B se genra una excepcion, SI esa excpecion no es controlada en B, se propga en Am y si en a no se controla, entoces se propaga a main y genera un error en tiempo de ejecuicon
+
+
+
+----------------------------------------------------------------------------------------------
+Clausula FInall
+
+Ademas de las clausulas catch y try existe finally
+
+FInally enciarra un bloque de codigo, que se ejecuta seimrep que se haya capturado o no la exceocuon (Se ejecuta siempre haya capturado o no la excepcion) 
+
+Si dentro de un bloque tru esiste la palabra rutunr se ejecuta fFInally antes de devolver un valor.
+
+
+(Ver jerarquia de Expeciones=
+
+
+"Tdoso los errore sde la clase Excpetion pueden ser capturados, los de la clase error, no pden ser capturados"
+
+
+//Hcaer un array 
+
+
+
+Sabado 17 clases de Progra a las 8:00 am
+
+
+

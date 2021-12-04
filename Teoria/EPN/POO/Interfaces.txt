@@ -1,0 +1,25 @@
+Interfaces: establecen los comportamientos a cumplir por las clases que implementan esas interfaces
+
+Esos comportamientos vienen dados por los metodos que haya en esa clase
+
+Características:
+Interfaz contiene: Metodos Abstractos y Constantes
+		   se alacenan en un fichero .class
+Una clase que hereda de la clase abstacta está obligada a reescribir los metodos de la clase abstracta
+
+Las interfaces siempre deben tener metodos abstractos
+
+.......................................................................
+Las interfaces solventan el problema de la herencia multiple en Java
+
+
+
+
+
+
+
+
+
+
+
+

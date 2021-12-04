@@ -1,0 +1,5 @@
+Para importar un proyecto, damos click en file-> import ... y seguir los pasos de los recortes
+.
+..
+...
+ jeje 

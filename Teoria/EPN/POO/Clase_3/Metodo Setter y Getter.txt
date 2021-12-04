@@ -1,0 +1,33 @@
+Método constructor:
+Un método contructor de una clase es lo que le da su estado inicial
+	Sintaxis:
+		public método(){
+		codigo
+	}
+(Ver Avion_1) POOC_1
+
+
+Método Setter y Getter
+Despues de encapsular una propiedad de un objeto, para poder acceder a esa información 
+debemos hacerlo a través de un método setter y/o getter
+
+Método Getter: Devuekve el valor de la propiedad de los objetos
+
+	Sintaxis:
+		public tipo_de_dato_a_devolver nombre del método (){
+
+		código
+		return;
+	}
+
+
+Método Setter: Modifica o establece el valor de la propiedad del ejemplar 
+
+	Sintaxis:
+		public void_nombre_método(){
+		
+		codigo
+
+	}
+
+

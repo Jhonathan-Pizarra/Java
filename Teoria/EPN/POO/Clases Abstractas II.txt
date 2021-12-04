@@ -1,0 +1,92 @@
+﻿EN estas jerarquias de clases 
+
+CLase Porfesor
+	
+	Clase EStudiante
+
+Clase Decano		
+
+Clase Presidente Aoscioacion
+
+
+Clase Rector
+
+
+
+La clase mas poderosa es la clase rector porque tiene mas metodos (ENtre mas superiores sean las clases, son mas genericas (MAS ABSTRACTAS))
+
+
+
+Clase Persona (diganis qye creanis esra ckase suoeruir a profesor) esta clase serua mas abstracta 
+
+
+
+ESta clase persona si podria tener un metodo nombre, que viene de la clase orifesir, pero por ejemplo un metodo sueldo, quizas no
+
+Clase alumno, 
+
+supongamos que tiene algunos atributos, diferntes a los de orras clases,
+
+ si mi descripciom es difetende a la de la CLase pordor por ejemplo, necesitamos un metodo que haga una descripcion diferente apra ambos
+
+ Porque el uno no tiene nada que ver con el otro. SIn embargo ambos son perosnas !!
+
+..........................
+
+............
+EStructura
+
+publci abstract String obtenerDescripcion(); 
+(Decalramos esre metodo abstracto en la clase personas y ya podemos hacer uso de los metodos que esten tanto aqui como alla) 
+
+
+SOlo se dlos define en Java, al declarar un metodo abstracto la clase se ve obligada a ser declarada como abstracta.
+
+
+
+
+para transformas una clase a abstracta:
+abstract class nombre_dela_clase
+
+Crear una clase abstracta con sus metodos,
+
+ lo unico que hace es establecer un patron de diseño
+.
+
+..............................................................
+
+TAREA:
+Personas: 
+Calculo Jubilacion, va a tener que hacer uso de: (mETODO ABSTRACTO)
+
+, Edad, 
+AÑOS DE SERVICIO
+, SUELDO PROMEDIO
+
+
+
+HOmbre se jubila a la edad de 65 años
+
+mujer se jubila a la edad de 60 
+....
+.........................................
+
+Crear un objeto, hay que asingar un nombre, apellido, ID (TIENE QUE TENER 10 DIGITOS, DE LO CONTRARIO ERROR), Fecha de Nacimiento, (Edad, ligada a la fecha de nacimiento), 
+
+(Todo eso es comun para hombre y mujer)
+, años de servivico, tipo de empleo(Publico o Privado) 
+
+(SI es publico no recibe bono, si es rivado, se suma 300 dolares), sueldo promedio. 
+
+USAR GETTERS Y SETTER PARA TODOS ELLOS
+
+A traves de el metodo contructor.
+ 
+SOlo calcular la jubiulacion si el hombre es mayor o igual a 65 y la mujer 60, de lo contrario diga: no puede jubilarse aún
+
+
+Calculo de la jubilacion: (sueldo promedio*años de servivio/30)*20% (Para HOMBRE) (if publico ..suleod = sueldo +0)
+(if privado..suldo =sueldo+300)
+
+	  		
+				sueldo promedio*años de servivio/30)*45% (pARA MUJERE)

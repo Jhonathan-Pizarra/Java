@@ -1,0 +1,37 @@
+Poli-> MUchos
+MOrfismo-> FOrmas
+
+"Muchas formas"
+
+EN java esta ligado con lo que se conoce como Principio de Sustitucion
+"PRINCIUPIO DE SUSTITUCION": Se pyede utilizar un objeto de la subclase suenore qye el programa espere un objeto de la superclase
+
+Un objeto se puede comportar de diferentes formas dependiendo del contexto, las variables objeto en java son polimorficas
+
+Decano es una subclase de la clase profesor, (Proferos es una superclase)
+Yo puedo crear un objeto del tipo decano y encerrarlo en objetos del tipo profesor
+
+
+REFUNDICION DE OBJETOS
+es nocertur un objeto de un tipo en un objeto de tipo diferetne
+SIntaxis:
+TIpo de objeto + nombre de objeto = 
+
+METODOS Y CLASES FINAL
+
+SI tubviera una clase rectore, (subclase de la clase decano) esta va a heredar tandro de decano como de profesor
+Suponiendo que mi ultima clase es decano, yo puedo hacer que nadie mas genere una clase de ahi
+
+EL dieñador puede diseñar una clase y editar hasta que punto se puede heredar
+
+-----------------------------------------------------------------
+Ejercicio: Definir una sueprcalse :
+ Atriutos: nombre, modelo, precio, % de aprobacion, 
+
+Superclase: eSTUDIANTE
+ATRIBUTOS: nOMBRE Y APELLIDO, EDAD, FECHA DE INGRESO, IRA
+
+Subclase: Presidente de aosciacion
+Atriutos: beca
+
+final para la sublclase 

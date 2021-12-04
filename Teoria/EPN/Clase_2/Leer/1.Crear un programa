@@ -1,0 +1,88 @@
+COMO CREAR UN NUEVO PROYECTO EN JAVA
+
+AL pricipio, al ejecutar ecilpse, nos monstrará una ventana que nos pedirá dónde deseamos
+guardar nuestro programa (Escogemos en la opción Browse la ubicación de nuestros programas)
+Luego, aparecerá una pagina de bienvenida,la cual debemos cerrar (En la X de la pestaña, no del programa, ojo).
+
+Aparecerá una interfaz vacía, lo primero que debemos hacer es crear un proyecto
+En la pestaña file->escogemos New -> Java Proyect
+(Nota: Si no te aparee files es porque no está en pantalla completa)
+Se desplegará una ventana con las siguientes opciones:
+
+Proyect Name: Es el nombre que le ponemos a nuestro Proyecto (El mío se llamará Práctica 1)
+Locacion: es el lugar donde se va a gardar nuestro proyecto (Ya lo pusimos previamente o lo mandará por defecto) 
+/home/ubuntu/eclipse-workspace/PrimeraClase (Por ejemplo, es dónde se guardará)
+
+ESta es por defecto, si creamos otro, se guardará aqui mismo, a menos que cambiemos la ubicación
+
+JRE: Es la versión java con la que estamos trabajando. La mía es: JavaSE-18.8
+(Se puede escoger entre versiones antiguas también, o cuando haya una nueva, sería cuestión de descargar y cambiarla)
+
+Damos click en Next
+Luego aparecerá otra ventana, que nos dice: Opciones de Java 
+(Nota: NO cambies nada en esto, lo veremos más a fondo en clases posteriores)
+Damos click en Finish 
+
+Se crea una especie de carpeta (Con el nombre del Proyecto)
+Y si nos fijamos bien, tiene una clase de "flechita", indica que se puede desplegar,
+que al clickear aparecerán más subcarpetas
+
+SRC: Tendra nuestro código fuente, ahí va a ir guardando las clases que definamos
+(Entindase por clases a las plantillas, las cuales usaremso para la creación de objetos)
+
+all is full of love-bejork
+ 
+CREACIÓN DE UNA CLASE JAVA (JAVA CLASS)
+Podemos crear una clase de dos maneras, una es ir a la carpeta SRC (O a la carpeta principal) 
+Y dar click izquierdo y selecciar->New->Java Class
+O también podemos ir a la parte superior y dar click en el botón C* (Nueva clase Java)
+Aparecerá una ventana con el nombre: Java Class
+
+Source Folder: Es el nombre de la carpeta principal/ de la subcarpera SRC/ en dónde estará nuestra clase java
+Package: Se pondrá por defecto a menos que de tengamos uno y lo deseemos incorporar (Veremos en clases futuras)
+
+En Name: Ponemos el nombre de la clase (Asegurarse de que este no tenga espacios, o caracteres no permitidos)
+Modifiers: Escogemos públic
+Superclass: java.lang.Object
+Interfaces: (Veremos en clase futuras como añadir una interface)
+Which metoh status would you like to create? Está preguntando si deseas crear un metodo automáticamente antes de empezar a programar. 
+Escogemos public static void main(String[]args) para que se nos cree automáticamente ese método
+(Es lo recomendado)
+
+Java Lan Object para mañana (Consultar)*
+
+"De hecho, todo porgrama en java necesita al menos una clase, 
+y todo programa en java deberá tener un método main"
+
+Opcionalmente podemos gerar comentarios,
+Luego click en Finish.
+
+Duda: En Java class, cuando lo estamos creando ¿Por qué aparece un signo de advertencia : The use of the default package is discouraged?....
+.....Vamos ha imprimir nuestro pimer hola mundo (^_^)/
+
+Entonces, dentro del método main clickeamos: 
+System.out.println("Hola Mundo");
+EL metodo print line crea una la linea y luego le da un salto de linea.
+el punto out (.out) indica que algo va a salir , algo tiene que monstrar.
+Se imprimirá todo lo que esté dentro del parentesis y esté entre comillas ("..Jhonathan")("Ventidor") ("Etc")
+(Muy importante no olvidar el punto y coma)
+Notamos dos cosas: A medida que ibamos escribiendo System.out.. (Nos iban aoareciendo opciones, eso pasa porque java inerpreta lo que quizás queremos escribir, y nos muestra una lista de recomendaciones. 
+La segunda es que, si escribimos mal el código, aparecerá una (x) de color rojo a la izquierda del código, en la linea que esté mal escrito. Indica un error en la sintaxis del cógido.
+
+Una vez corregidos los errores, clickeamos en "Run" para correr el código
+Aparecerá una ventana que dice: Save and Lauch,nos aseguramos de que el programa que queremos correr esté seleccionado, y clickeamos "OK"
+
+EN la parte inferior (En el area de impresión) se imprirá valga la redundancia jaja, nuestro Hola Mundo xD
+ 
+Para llevar a la casa nuestro programa, llevar el .CLass (No se puede hacer modificaciones) (Si se puede trabajar en netbeans) 
+Buscamos nuestro Proyecto (EL mío era Práctica 1)
+Dentro de esa carpeta tendremos dos carpetas BIN y SRC
+Y en la carpeta Bin es donde se guarada el punto Class (.Class)
+
+
+
+
+
+
+
+

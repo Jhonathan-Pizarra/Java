@@ -1,0 +1,60 @@
+TIPOS DE DATOS EN JAVA
+
+Se subdividen en dos tipos:
+PRIMITIVOS: Son tipos de datos que se usan para variables, sín metodos, ya que no son objetos. Y no necesitan una invocación para ser creados.
+	Son: 
+	Tipo Entero: byte, short, int, long
+	TIpo Decimál simple: float
+	TIpo Decimal doble(o punto flotante): double
+	TIpo caracter: char
+	TIpo boolean: bool
+
+OBJETOs: COn métdos, necesitan una invocación para ser creados.
+
+Nótese que dependiendo del tipo de dato imprimirá un valor. Por ejemplo, si declaro una variable y le asigno un valor ...
+float variable=3;
+
+Me imprimirá: 3.0 
+Eso es porque el tipo float me impimirá al menos un decimal. 
+
+VARIABLES
+Son usadas para almacenar valores, que serán utilizadas en algún momento, en algúna operación.
+
+DECLARACION DE VARIABLES
+Las vairables necesitan ser declaradas para ser utilizadas, y para ser declaradas tienen la siguiente sintaxis:
+
+(Tipo de dato) (Nombre de la variable);
+Notense dos cosas, la primera es que si escribimos el tipo de dato, se colorea de negro
+Eso es porque es una palabra reservada, la cual, no puede ser utilizada como nombre para una variable
+La segunda es que, cuando la declaramos, la variable se resalta de verde en la parte inferior.EL error verde dice que la variable no ha sido usada , es decir, java nos dice, que hemos declarado una variable que no hemos usado todavía. 
+(Muy importante, no olvidar el punto y coma)
+
+INCIALIZAR UNA VARIABLE
+ES simplemente, asignarle un valor, cualquier valor que le asignemos (De acuerdo al tipo de dato que le pongamos) le utilizaremos y le podremos cambiar como nos parezca
+.Se repite la misma sintaxis:
+
+(Tipo de dato) (Nombre de la variable) = (valor);
+
+Cuándo programemos, muchas veces , nos encontraremos con diferentes errores.
+¿Cómo ver los errores?
+EN C++, estos se reslatan la linea dónde queda el error
+EN Java, los marca por lo que simplemente, nos posicionamos donde esta marcado y vemos el error
+Nos muestra un cuadro de dialogo que nos da opciones, nos dice como arreglar el error.
+Además, podemos ver también que se forma una (x) en el lado izquierdo de la linea del código, eso muestra que ahí hay un error.
+El sombreado de color rojo en los comentarios, resulta de que la versión que estamos usando en java está en ingles, y no reconoce palabras en español.
+
+
+Algo que cabe diverencias es que, no podemos usar la coma para separar entre decimales, usaremos el punto. Y de hecho, Java si es sensible a mayusculas, por lo que una variable escrita en mayusculas es diferente de otra escrita en minusculas.
+
+CONSTANTES EN JAVA
+Una cosntante es un valor en memoria que no podra cambiar su valor, se utiliza constantes para guardar datos temporalemente, los cuales serán fijos.
+
+DECLARAR UNA CONSTANTE
+Para ello usamos la palabra reservada "final". Sintaxis:
+
+(final)(tipo de dato)(Nombre de la variable)=(COsntante);
+
+
+Se recomeinda que el nombre de las constantes sean con MAYUSCULAS. y de las variables con minúsculas.
+
+ 

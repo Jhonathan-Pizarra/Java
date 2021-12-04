@@ -1,0 +1,78 @@
+Las formas de programar son dos: Paradigma orientado a procedimientos (Estructurada)
+					   orientado a objetos (Orientada a Objetos)
+
+´Procedimientos: Normalmente un programa estrucutrado tiene bastantes errores, esto hacía que un fallo afecte
+a todo el programa, y aveces, esos errores, eran difíciles de corregir, o si lo haciamos, desencadenaban unos nuevos...
+
+En los 60's más que todo, esos programas (Fortran, Cobol Basisc, etc) esos eran los únicos y más conocidas formas de programar..
+
+Problemas (O desventajas dadas por el codigo estructurado)
+	-Necesitanamos muchisimas lineas de código para hcer cosas
+	-Era poco reutilizable, o casi nada, es decir, no podíamos usar un código anterior e implantarlo en uno nuevo para hacer otro programa, ya que las lineas de código
+	  dependen de otras.
+	-Aparece el codigo "Spagetti"
+	-Difícil de depurar
+
+Pensando en este problema se crea el
+ "Paradigma orientado a objetos".
+Consiste en tansladar la naturaleza de los objetos cotidianos al código de programación
+
+Los objetos de nuestra vida real tienen un estado, un comportamiento y unas propiedades.
+
+Por ejemplo:
+
+Objeto: Avión
+Estado: volando, parqueado.
+Propiedades (O atributos): peso, color, nombre
+Comportamientos: girar, aterrizar, despegar
+
+
+Beneficios ( O Ventajas proporcionados por el codigo orientado):
+	-Los programas pueden ser dividos en partes, módulos o clases
+	-Es reutilizable, (Principio de herencia) (Lo que significa que si existe una falla en alguna parte del código, el programa continuará su funcionamiento)
+		Se le conoce como "encapsulamiento" , cuando un objeto no sabe de la composición de otro, pero trabajam en "armonía" dentro de su entorno
+	
+Por ejemplo:
+Objeto: Auto. 
+Está compuesto por otros objetos: llantas, radio, ventanas. (Estamos modulando cada una de sus partes, u objetos)
+Pero los planos de fabricación pueden ser utilizados para fabricar otro auto (Herencia) 
+
+Si el radio deja de funcionar, el carro seguirá su funcionamiento (Tratamiento de excepcion)
+
+Si en nuestro auto hay una caja de cambios, ¿Tiene relación con el auto?
+No. porque trabajan en armonía. SI bien, es parte del auto, no porque no haya caja de cambios el auto va a dejar de funcionar
+
+-------------------------------------------------------------------------------
+
+Vocabulario:
+
+- Clase: Modelo donde se redactan las características comunes de un grupo de objetos (Planos)
+		
+-Objetos: Es una instancia de una clase(Dos objetos compartirán comportamientos, algunas caracterísitcas .. Pero.. otros no)
+
+-Atributos: Son las caracterísitcas propias de nuestros objetos.
+
+-Ejemplo de clase (Instancia de clase o ejemplizar una clase)
+
+Modulación: Dividir un programa en partes o módulos
+Encapsulamiento/Encapsulación: Consiste en que ciertas funcionalidades solo pueden ser realizadas por la clase original y no por una ajena (Ciertos datos solo pueden modificarse desde la propia clase)
+Herencia (Se vará en clases posteriores)
+Polimorfismo (Se vará en clases posteriores)
+
+Objeto , tiene propiedades, atributos (Son adjetivos):
+	-Color
+	-Peso
+	-Largo
+	-Ancho
+	, comportamiento, métodos (Son verbos):
+	-Volar
+	-Aterrizar
+	-Girar
+	-Frenar
+
+
+
+ 
+
+
+  

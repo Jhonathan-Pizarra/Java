@@ -1,0 +1,110 @@
+Salida de datos,
+
+la logramos mediante la consola del sistema
+Nos sirve par presentar información que exíste en nuestor programa.
+
+Entrada de Datros
+Sirve para incoporar información externa a nuestros porgramas.
+Lo ideal seria construir una GUI (Interfaz grafica del usurario) que nos permira introducir el mensaje que el programa procese
+
+Entrada de datos por medio de las clases
+Tenemso dos tipos más comunes:
+Scanner
+JOptionPane
+
+Scanner: tiene 3 métodos que vamos a utilizar:   nextLine(), para introducir palabras, strings de datos (Oigan, envienme alguna informaciin)
+          					nextint(), para introducir enteros
+						next()Double, para introducir un decimal
+
+JOptionPane: nos va a presenar una ventana de entrada con un casillero de texto con las opciones de aceptar y cancelar, tiene un método showInputDialog(), el cual es un metodo estático
+
+los métodos de la clase Scanner no son estáticos, por lo tanto debemos crear un objeto del tipo Scanner.
+
+PARA CREAR UN OBJETO 
+necesitamos usar contrucotres, (Son los encargados de construir los métodos), son metodos especiales, se caracterizan por que guardan el mismo nombre de la clase.
+Hay clases que tienen un solo contructor, pero hay clases que tienen muchisimos constructores (Si existen por ejemplo 10 contructores) (Podemos contruir 10 ejemplos)
+
+Cuando se crea un objeto, es como crear una variable,
+solo que en lugar de inicializarla, le damos un estado inicial (¿Quién ESTABLECE EL ESTADO INICIAL?) el constructor..
+
+Constructores, son métodos especiales, pueden exixtir muchos contructores en una clase, lo que les diferencia son los parametros para esos contructores.
+LLeva el nombre de la clase, y es necesario utilizar la palabra reservada "new"
+
+
+Para recibir datos System.in
+
+
+
+https://docs.oracle.com/javase/7/docs/api/ (EL API)
+......................................................................................................................................
+
+Otra forma de crear onjetos showInputDialog(), de JOptionPane
+
+......................................................................................................................................
+
+Formato de Números
+Si quertemos truncuar un número decimal y limitar si número de cifras decimales, usamos la sintaxis:
+printf("limitante",variable);
+
+Limitantes se definen como:
+"%1.2f" (Está tomando un valor entero y 2 cifras decimales)
+"%1.3f" (EStá tomando un entero y 3 decimales")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

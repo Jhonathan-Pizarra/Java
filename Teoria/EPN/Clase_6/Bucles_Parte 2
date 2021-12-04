@@ -1,0 +1,9 @@
+BUcle Indeterminado Do-While
+se diferenia en el While, porque este se ejecuta al menos una vez
+DO{
+	linea1
+	linea2
+}while(condicion)
+
+C0mo limpiar una advertencia?
+entrada.cose(); (Dentro del metodo main)

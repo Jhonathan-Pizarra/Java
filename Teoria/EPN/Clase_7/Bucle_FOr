@@ -1,0 +1,11 @@
+Bucle For
+
+Nos permite controlar cuantas veces el lazo se repite, ya que es un bucle determinado
+Sintaxis:
+for(inicio bucle; condicion; conador){
+	Linea 1
+	linea 2
+	linea 3
+ }
+
+EN el contador pueden existir tanto valores incrementeales como decrementales

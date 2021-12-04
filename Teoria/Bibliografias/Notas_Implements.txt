@@ -1,0 +1,25 @@
+Los atributos de una interfaz son por defecto public, static final
+
+por defecto, los metodos de una interfaz son publicos y abstractos
+
+public abstract void (Es algo que esta declarado y definido) Las interfazes no tieen metodos definidos
+solo declarados
+--------------------------------
+
+Marraca error cuando implementamos en una clase
+	Los metodos no estan definidos, solo declarados (en clase interface)
+
+Entonces tenemos que implementar a esos metodos, y definir esos metodos cuando en una lcase usemos un implementes
+
+-------------------------
+Interface cd1 = new ClaseDerviada();
+nos permite ser mas genericos en nuestro progrmas.
+
+
+-----------------------------------------------
+Try es probrar
+catch recibe siempre un parametro que es una excepcion, la mas generica es la de la calse Exceptio (La clase madre de todos los errores)
+
+	la clase Exception tiene sus hijas...
+
+Finally,  una porcion de codigo que querma que se ejecute tenga o no error

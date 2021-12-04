@@ -1,0 +1,58 @@
+ARRAYS
+
+Son arreglos, son matrices, estructuras de datos que contienen una coleccion de valores del mismo tipo (No int y float al mismo tiempo por ejemplo) De un solo tipo...
+
+POdemos generear arrays de objetos siempre que esos sean del mismo tipo
+
+SIOrven para almacenar valores que normalmente tienen una relacion entre si (Tipo de dato)
+
+SIntaxia:
+
+ Tipo de dato [] +nombre del array = new TIpo de dato [NUmero de elemnteso que contredra el array]
+
+Ejemplo:
+  
+int [] matriz = new int [20];
+
+.......................................................................................................................
+FOR EACH
+
+ES una estrucuta de control nueva, viene impleemntada desde la version 5 de java
+fue creado para una contrucion mas sencilla del bucle for
+
+
+
+
+...........................................................................................................
+Variable es un espacio de memoria que contiene pro ejemplo un nmero
+en cambio una matriz tendra un conjunto de numeros 
+
+
+mi matriz : 33 44 56 75 
+
+int [] matriz = new int [5];
+mi matriz[0]=33; 
+..
+...
+..
+mi matriz [4] =75; 
+
+
+
+
+tambien podemos declarar la miatis e inicializarla asi:
+
+int [] mi matriz ={13,23,45}; //COnforme le vaya aumentando numeros, mi matriz ser hará mas gande...
+
+
+.........................................................................................
+
+ARREGLOS BIDIMINESIONALES
+
+
+Se trata de un array dentro de otro array , mir alas posiciones
+
+13 (0,0)  24(1,0)  53(2,0)
+78(0,1) 
+45(0,2) 
+
